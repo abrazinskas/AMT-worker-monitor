@@ -23,6 +23,7 @@ If you have not setup your Mechanical Turk account, you might find helpful to fo
 Once the setup is completed, create a qualification that will be used to blacklist workers when they exceed a threshold number of completed HITs.
 
 ![Disqualification qualification in a MT account](img/qual.png "Disqualification qualification")
+
 Finally, you need to publish a batch of HITs that you would like to monitor.
 
 
