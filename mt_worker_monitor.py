@@ -69,7 +69,7 @@ class MTWorkerMonitor(object):
             blacklisted_workers = set(self.fetch_workers_with_qualification())
             hits = self.fetch_and_filter_hits()
             if len(hits) == 0:
-                warnings.warn("No HITs were found for "
+                warnings.warn(f"No HITs were found for "
                               "'batch_id'={self.batch_id}.")
 
             worker_counter = Counter()
